@@ -57,10 +57,16 @@ El código a ejecutar se encuentra en 0_main_mesh_nodes.py y en 0_main_fem.py de
 
 Aquí se muestran distintas vistas del mismo resultado obtenidas por código o gracias a la interfaz Paraview:
 
+![1](https://github.com/PdEXavierMY/Elementos_Finitos3D/assets/91721699/43db873d-f40d-4528-bc30-30d345633b8c)
 
 
+![2](https://github.com/PdEXavierMY/Elementos_Finitos3D/assets/91721699/a62e5ba6-c438-45d1-9d35-3c0896085d38)
 
 
+![3](https://github.com/PdEXavierMY/Elementos_Finitos3D/assets/91721699/911bc944-a714-4815-8734-6073c3c08a5f)
 
 
+![4](https://github.com/PdEXavierMY/Elementos_Finitos3D/assets/91721699/bdeef4fd-ae62-4ebf-91fa-55ba4743c213)
 
+
+![5](https://github.com/PdEXavierMY/Elementos_Finitos3D/assets/91721699/86ad54ab-cc8a-4726-9735-945c2a1ecfbc)
