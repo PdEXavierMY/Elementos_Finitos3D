@@ -35,7 +35,10 @@ def visualize_vtu(file_path):
     plt.show()
 
 # Ruta al archivo VTU
-file_path = 'MEF_beam_bulk_1.vtu'
+file_paths = ['MEF_beam_bulk_1.vtu', 'MEF_beam_bulk_2.vtu', 'MEF_beam_bulk_3.vtu', 'MEF_beam_bulk_4.vtu', 'MEF_beam_bulk_5.vtu', 'MEF_beam_bulk_6.vtu', 'MEF_beam_bulk_7.vtu', 'MEF_beam_bulk_8.vtu', 'MEF_beam_bulk_9.vtu', 'MEF_beam_bulk_10.vtu']
+
+visualize_vtu('viga.vtu')
 
 # Visualizar el archivo VTU
-visualize_vtu(file_path)
+for file_path in file_paths:
+    visualize_vtu(file_path)
