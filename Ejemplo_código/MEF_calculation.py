@@ -8,14 +8,14 @@ import numpy as np
 from numpy  import *
 from numpy import linalg
 
-from compute_eigenvector import*
-from determinant import*
-from eigenvalues import*
-from transpose import*
-from print_paraview import*
-from transpose import*
-from determinant import*
-from kloc_tet import*
+from Ejemplo_código.compute_eigenvector import*
+from Ejemplo_código.determinant import*
+from Ejemplo_código.eigenvalues import*
+from Ejemplo_código.transpose import*
+from Ejemplo_código.print_paraview import*
+from Ejemplo_código.transpose import*
+from Ejemplo_código.determinant import*
+from Ejemplo_código.kloc_tet import*
 
 
 def calculate_FEM (steps, disp_vert, label_test):
@@ -435,7 +435,7 @@ def calculate_FEM (steps, disp_vert, label_test):
         ind+=1
     fdisp.close()
 
-    return (disp_vert_stepi, load_disp);
+    return (disp_vert_stepi, load_disp)
 
 
 
