@@ -96,7 +96,7 @@ def kloc_tet (aux_vec_coord,Eloc):
     D1=np.array(D)
     straMat=D1 #np.dot(D,Bmat) #multiply_mat(D,Bmat)
 
-    return (Kloc,straMat,Bmat,voltet);
+    return (Kloc,straMat,Bmat,voltet)
 
 
 

@@ -27,4 +27,4 @@ def compute_eigenvector (eigref, stra) :
     B*=1/uni
     C*=1/uni
 
-    return (A, B, C);
+    return (A, B, C)

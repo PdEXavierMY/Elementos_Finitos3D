@@ -28,7 +28,7 @@ def det3(Matrix_dim3):
 
     d = M[0][0]*(M[1][1]*M[2][2]-M[1][2]*M[2][1]) - M[1][0]*(M[0][1]*M[2][2]-M[0][2]*M[2][1]) + M[2][0]*(M[0][1]*M[1][2]-M[0][2]*M[1][1])
 
-    return(d);
+    return(d)
 
 ### this is to calculate matrices(4x4) determinant
 def det4(M):
@@ -41,7 +41,7 @@ def det4(M):
 
     d=det3(M0)+det3(M1)+det3(M2)+det3(M3)
 
-    return(d);
+    return(d)
 
 
 ### this is to remove matrices column
@@ -52,7 +52,7 @@ def remove_column(Matrix, Column):
         for i in range (0,l,1):
                 M[i].pop(Column)
 
-        return(M);
+        return(M)
 
 ### this is to copy matrices
 def copy (A):
@@ -63,7 +63,7 @@ def copy (A):
         for j in range(0,len(A[0]),1):
             B[i].append(A[i][j])
     
-    return (B);
+    return (B)
 
 ### this is to subtract matrices
 def substract (A,B):
@@ -73,6 +73,6 @@ def substract (A,B):
         for j in range(0,len(A[0]),1):
             C[i][j] = A[i][j]-B[i][j]
     
-    return (C);
+    return (C)
 
     

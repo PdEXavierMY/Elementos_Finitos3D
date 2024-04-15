@@ -124,4 +124,4 @@ def print_paraview_micro_stra_stre_disp (v_tetra, stra, stre, disp, lablet, lab)
     f.write('</VTKFile> \n')
     f.close()
 
-    return;
+    return

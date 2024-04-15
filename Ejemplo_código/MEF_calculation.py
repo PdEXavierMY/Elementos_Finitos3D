@@ -12,7 +12,7 @@ from compute_eigenvector import*
 from determinant import*
 from eigenvalues import*
 from transpose import*
-from print_paraview import*
+from print_paraview2 import*
 from transpose import*
 from determinant import*
 from kloc_tet import*

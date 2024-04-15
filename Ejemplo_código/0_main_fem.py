@@ -3,7 +3,7 @@ from MEF_calculation import calculate_FEM
 
 
 ############## PARAMETERS ################
-disp_vert=0.5
+disp_vert=0.1
 steps=10
 ##########################################
 

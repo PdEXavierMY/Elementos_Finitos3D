@@ -80,7 +80,7 @@ def print_paraview (ncoords, mesh):
     f.write('</VTKFile> \n')
     f.close()
 
-    return;
+    return
 
 
 

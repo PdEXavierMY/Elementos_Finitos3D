@@ -17,4 +17,4 @@ def transpose (B) :
         for j in range(0,colum_number,1):
             Bt[j][i]=1.0*B[i][j]
     
-    return (Bt);
+    return (Bt)

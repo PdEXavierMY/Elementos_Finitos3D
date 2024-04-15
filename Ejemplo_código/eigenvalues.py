@@ -56,4 +56,4 @@ def eigenvalues (A):
         eig3 = q + 2 * p * math.cos(phi + pi * (2/3))
         eig2 = 3 * q - eig1 - eig3
 
-    return (eig1, eig2, eig3);
+    return (eig1, eig2, eig3)
